@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-top{
+    background-color: #fceae8;
+}
+.price{
+    color: rgb(241, 83, 107);
+}
+.buy-now-button{
+    background-color: rgb(241, 83, 107);
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+.buy-now-button:hover{
+    background-color: rgb(238, 113, 131);
+}
+.category-1{
+    background-color: #FFA500;
+}
+.category-2{
+    background-color: #DA70D6;
+}
+.category-3{
+    background-color: #0000FF;
+}
+.category-images{
+    width: 100px;
+}
+#subscribe{
+    background-color: #FCEAE8;
+}
