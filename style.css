@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.fa-user-circle{
+    font-size: 28px;
+    cursor: pointer;
+    color: rgb(102, 99, 99);
+}
 .carousel-top{
     background-color: #fceae8;
 }

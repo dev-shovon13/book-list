@@ -27,7 +27,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -40,6 +40,142 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
+                    </ul>
+                    <ul class="d-flex align-items-center navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#exampleModalToggle"
+                                data-bs-toggle="modal">Login / SignUp </a>
+
+                            <!-- modal start -->
+
+                            <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                                aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalToggleLabel">SIgn In</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="row mb-3">
+                                                    <label for="inputEmail3"
+                                                        class="col-sm-2 col-form-label">UserName</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="email" class="form-control" id="inputEmail3">
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <label for="inputPassword3"
+                                                        class="col-sm-2 col-form-label">Password</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="password" class="form-control" id="inputPassword3">
+                                                    </div>
+                                                </div>
+                                                <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+                                                <button class="buy-now-button">SIgn In</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <p class="me-auto text-secondary"> Don't have an Account ?</p>
+                                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                                data-bs-toggle="modal" data-bs-dismiss="modal">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                                aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalToggleLabel2">Sign Up
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row g-3">
+                                                <div class="col-md-4">
+                                                    <label for="inputFirstName4" class="form-label">First Name</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Enter First name" aria-label="First name"
+                                                        id="inputFirstName4">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputLastName4" class="form-label">Last Name</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Enter Last name" aria-label="Last name"
+                                                        id="inputLastName4">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputUserName4" class="form-label">User Name</label>
+                                                    <input type="text" class="form-control" placeholder="Username"
+                                                        aria-label="Username" aria-describedby="addon-wrapping"
+                                                        id="inputUserName4">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputEmail4" class="form-label">Email</label>
+                                                    <input type="email" class="form-control" id="inputEmail4">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputPassword4" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="inputPassword4">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputPassword4" class="form-label">Confirm
+                                                        Password</label>
+                                                    <input type="password" class="form-control" id="inputPassword4">
+                                                </div>
+                                                <div class="col-12">
+                                                    <label for="inputAddress" class="form-label">Address</label>
+                                                    <input type="text" class="form-control" id="inputAddress"
+                                                        placeholder="1234 Main St">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputCity" class="form-label">City</label>
+                                                    <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputState" class="form-label">State</label>
+                                                    <select id="inputState" class="form-select">
+                                                        <option selected>Choose...</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <label for="inputZip" class="form-label">Zip</label>
+                                                    <input type="text" class="form-control" id="inputZip">
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                        <label class="form-check-label" for="gridCheck">
+                                                            Remember Me
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <!-- <button type="submit" class="btn btn-primary">Sign Up</button> -->
+                                                    <button class="buy-now-button">SIgn Up</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <p class="me-auto text-secondary"> Already have an Account ?</p>
+                                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                                data-bs-toggle="modal" data-bs-dismiss="modal">Sign In</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- modal end -->
+
+                        </li>
+                        <i class="fas fa-user-circle ms-4"></i>
+                    </ul>
                 </div>
             </div>
         </nav>
